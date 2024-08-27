@@ -4,9 +4,9 @@ const upBtn = document.getElementsByClassName("up-btn");
 const downBtn = document.getElementsByClassName("down-btn");
 const footer = document.querySelector("footer");
 
-for (let i = 0; i < section.length; i++) {
-  section[i].style.backgroundColor = bgColorArr[i];
-}
+// for (let i = 0; i < section.length; i++) {
+//   section[i].style.backgroundColor = bgColorArr[i];
+// }
 
 let currentSection = 0;
 const totalSections = section.length;
